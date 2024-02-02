@@ -1,16 +1,7 @@
 program tictactoe.aleo {
     // A row in a tic tac toe board.
 
-    // A tic tac toe board.
-    // - `r1` : The first row in the board.
-    // - `r2` : The second row in the board.
-    // - `r3` : The third row in the board.
-    struct Board {
-        r1: Row,
-        r2: Row,
-        r3: Row,
-    }
-
+    
     // Returns an empty board.
     transition new() -> Board {
         return Board {
