@@ -1,20 +1,4 @@
-#!/bin/bash
-# First check that Leo is installed.
-if ! command -v leo &> /dev/null
-then
-    echo "leo is not installed."
-    exit
-fi
-# Create a new game.
-echo "
-###############################################################################
-########                                                               ########
-########          STEP 0: Creating a new game of Tic-Tac-Toe           ########
-########                                                               ########
-########                         |   |   |   |                         ########
-########                         |   |   |   |                         ########
-########                         |   |   |   |                         ########fi
-# Create a new game.
+
 echo "
 ###############################################################################
 ########                                                               ########
