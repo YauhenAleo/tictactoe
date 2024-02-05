@@ -3,6 +3,11 @@ program tictactoe.aleo;
 struct Row:
     c1 as u8;
     c2 as u8;
+    c3 as u8;program tictactoe.aleo;
+
+struct Row:
+    c1 as u8;
+    c2 as u8;
     c3 as u8;
 
 struct Board:
