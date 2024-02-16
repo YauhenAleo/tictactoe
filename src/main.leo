@@ -1,18 +1,4 @@
-program tictactoe.aleo {
-    // A row in a tic tac toe board.
 
-    
-    // Returns an empty board.
-    transition new() -> Board {
-        return Board {
-            r1: Row { c1: 0u8, c2: 0u8, c3: 0u8 },
-            r2: Row { c1: 0u8, c2: 0u8, c3: 0u8 },
-            r3: Row { c1: 0u8, c2: 0u8, c3: 0u8 },
-        };
-    }
-
-    // Returns `true` if there exists a row, column, or diagonal with all entries occupied by the same player.
-    // - `b` : A tic tac toe board.
     // - `p` : A number corresponding to a player.
     function check_for_win(b: Board, p: u8) -> bool {
         return
